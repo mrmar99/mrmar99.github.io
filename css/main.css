@@ -8,6 +8,10 @@
   color: #9a9a9a;
 }
 
+body {
+  background-color: #fcfcfc!important;
+}
+
 @media screen and (max-width: 450px) {
   div.choose-role__button {font-size: 10px;}
   a.choose-role__button {font-size: 10px;}
