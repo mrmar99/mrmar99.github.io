@@ -8,6 +8,15 @@
   color: #9a9a9a;
 }
 
+@media screen and (max-width: 450px) {
+  div.choose-role__button {font-size: 10px;}
+  a.choose-role__button {font-size: 10px;}
+}
+@media screen and (max-width: 321px) {
+  div.choose-role__button {font-size: 8px;}
+  a.choose-role__button {font-size: 8px;}
+}
+
 /* Задает задний фон логотипу в шапке */
 .top-area {
   height: 125px;
