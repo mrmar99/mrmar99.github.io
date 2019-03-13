@@ -99,8 +99,11 @@ form input {
   font-size: 14px;
   padding-left: 15px;
   background-color: #f3f5f4;
-  border: none;
-  border-radius: 2px;
+  border: 1px solid #f1f3f2;
+}
+
+.form-area form .form-group {
+  margin-bottom: 8px;
 }
 
 form input:focus {
