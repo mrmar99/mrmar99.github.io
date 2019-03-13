@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Register</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+  <div class="top-area">
+    <div class="container d-flex h-100">
+        <div class="logo align-self-center">
+          <img src="img/logo.png" class="img-fluid" width="180" alt="Логотип NazzAR">
+        </div>
+    </div>
+  </div>
+  <div class="sign-area d-flex m-auto col-12 col-lg-8 col-xl-8">
+    <div class="container">
+      <div class="choose-method">
+        <div class="row d-flex">
+          <a class="login-method choose-method__button w-50 d-flex align-items-center justify-content-center" href="login.html">Вход</a>
+          <div class="choose-method__active register-method choose-method__button w-50 d-flex align-items-center justify-content-center">Регистрация</div>
+        </div>
+      </div>
+      <div class="choose-role">
+        <div class="row d-flex flex-nowrap">
+          <a class="individual choose-role__button d-flex justify-content-center align-items-center col-4 m-0" href="register-individual.html">Частное лицо</a>
+          <div class="choose-role__active company choose-role__button d-flex justify-content-center align-items-center col-4">Компания</div>
+          <a class="partner choose-role__button d-flex justify-content-center align-items-center col-4" href="register-partner.html">Партнер</a>
+        </div>
+      </div>
+      <div class="form-area">
+          <form action="" class="d-flex flex-column justify-content-center">
+            <div class="form-group row">
+              <div class="col d-inline-flex">
+                <i class="fas fa-id-card-alt align-self-center d-inline-flex justify-content-center"></i>
+                <input type="text" class="from-control w-100 mr-1" placeholder="Фамилия">
+              </div>
+              <div class="col d-inline-flex">
+                <input type="text" class="from-control w-100 ml-1" placeholder="Имя">
+              </div>
+            </div>
+            <div class="form-group row">
+              <div class="col d-inline-flex">
+                <i class="fas fa-building align-self-center d-inline-flex justify-content-center"></i>
+                <input type="text" class="from-control w-100" placeholder="Наименование организации">
+              </div>
+            </div>
+            <div class="form-group row">
+              <div class="col d-inline-flex">
+                <i class="fas fa-id-card align-self-center d-inline-flex justify-content-center"></i>
+                <input type="text" class="from-control w-100" placeholder="ИНН">
+              </div>
+            </div>
+            <div class="form-group row">
+              <div class="col d-inline-flex">
+                <i class="fas fa-mobile-alt align-self-center d-inline-flex justify-content-center"></i>
+                <input type="text" class="from-control w-100" placeholder="Номер телефона">
+              </div>
+            </div>
+            <div class="form-group row">
+              <div class="col d-inline-flex">
+                <i class="fas fa-key align-self-center d-inline-flex justify-content-center"></i>
+                <input type="password" class="from-control w-100" placeholder="Пароль">
+              </div>
+            </div>
+            <div class="form-group row">
+              <div class="col d-inline-flex">
+                <i class="fas fa-key align-self-center d-inline-flex justify-content-center"></i>
+                <input type="password" class="from-control w-100" placeholder="Пароль">
+              </div>
+            </div>
+            <div class="form-group row">
+              <div class="col d-inline-flex">
+                <i class="fas fa-envelope align-self-center d-inline-flex justify-content-center"></i>
+                <input type="text" class="from-control w-100" placeholder="E-mail">
+              </div>
+            </div>
+            <button type="submit" class="btn-register">Зарегистрировать</button>
+          </form>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+/* Убирает подчеркивание и цвет ссылок */
+.choose-method a:hover {
+  text-decoration: none;
+  color: #9a9a9a;
+}
+.choose-role a:hover {
+  text-decoration: none;
+  color: #9a9a9a;
+}
+
+/* Задает задний фон логотипу в шапке */
+.top-area {
+  height: 125px;
+  background-color: #f7f7f7;
+}
+
+/*
+1. Вход/регистрация;
+2. Частное лицо, Компания, Партнер;
+3. Стили формы;
+4. Стили кнопки
+*/
+
+
+/* 1. Выбор метода: ВХОД/РЕГИСТРАЦИЯ */
+
+.choose-method {
+  margin-top: 5px;
+}
+
+.choose-method__button {
+  display: block;
+  height: 48px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  color: #9a9a9a;
+  border-bottom: 3px solid #ececec;
+}
+
+.choose-method__button:hover {
+  cursor: pointer;
+}
+
+.choose-method__active {
+  color: #393862;
+  border-bottom: 3px solid #393862;
+}
+
+
+/* 2. Выбор роли: ЧЛ, КОМПАНИЯ, ПАРТНЕР */
+
+.choose-role {
+  margin-top: 25px;
+}
+
+.choose-role__button {
+  border-radius: 2px;
+  margin-left: 1px;
+  height: 23px;
+  color: #9a9a9a;
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
+  background-color: #f3f5f4;
+}
+
+.choose-role__button:hover {
+  cursor: pointer;
+}
+
+.choose-role__active {
+  color: #fff;
+  background-color: #2558a2;
+}
+
+
+/* 3. Стили формы */
+
+form {
+  margin-top: 45px;
+}
+
+form input {
+  height: 23px;
+  font-size: 14px;
+  padding-left: 15px;
+  background-color: #f3f5f4;
+  border: none;
+  border-radius: 2px;
+}
+
+form input:focus {
+  outline: none;
+}
+
+form i {
+  color: #2558a2;
+  margin-right: 15px;
+  width: 18px;
+}
+
+form .col {
+  padding: 0 0;
+}
+
+
+/* 4. Стили кнопки */
+
+button.btn-register {
+  margin-top: 31px;
+}
+
+.btn-register {
+  height: 23px;
+  padding: 0 60px;
+  text-transform: uppercase;
+  font-size: 14px;
+  border-radius: 3px;
+  margin: auto;
+  border: 1px solid #466c90;
+  background-color: #559ad1;
+  color: #fff;
+  letter-spacing: 0.5px;
+}
+
+.btn-register:focus {
+  outline: none;
+}
