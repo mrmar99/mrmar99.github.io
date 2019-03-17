@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
+  <link rel="stylesheet" href="css/media.css">
+  <title>Index</title>
+</head>
+<body>
+  <header class="top-area">
+    <div class="container d-flex h-100 justify-content-between">
+        <div class="logo align-self-center">
+          <a href="#"><img src="images/logo.png" class="img-fluid" width="180" alt="Логотип NazzAR"></a>
+        </div>
+        <a class="avatar align-self-center">
+          <span>Sevara</span>
+          <img src="images/icon/avatar.jpg">
+        </a>
+    </div>
+  </header>
+
+
+  <div class="additional-area d-flex mx-auto col-12 col-lg-8 col-xl-8">
+    <div class="container">
+
+
+      <div class="row d-flex additional-area__nav">
+        <a class="additional-area__nav-button col-md-6 d-flex align-items-center justify-content-center" href="">Мои дополнения</a>
+        <a class="additional-area__active additional-area__nav-button col-md-6 d-flex align-items-center justify-content-center">Новое дополнение</a>
+      </div>
+
+      <form>
+        <section class="row d-flex additional-area__upload">
+          <div class="upload-area upload-image col-lg-6 d-flex flex-column align-items-center">
+            <div class="upload__image-area">
+              <img src="images/content/img2.jpg" class="img-fluid" alt="Изображение">
+            </div>
+            <label for="upload-image" class="upload__button">Загрузить изображение</label>
+            <input type="file" id="upload-image" class="upload__button d-flex align-items-center">
+          </div>
+          <div class="col-lg-6 upload-area upload-addition d-flex flex-column align-items-center">
+            <div class="upload__image-area">
+              <img src="images/content/img2.jpg" class="img-fluid" alt="Дополнение">
+            </div>
+            <label for="upload-addition" class="upload__button">Загрузить дополнение</label>
+            <input type="file" id="upload-addition" class="upload__button d-flex align-items-center">
+          </div>
+        </section>
+
+
+        <section class="d-flex additional-area__period flex-column align-items-center justify-content-center col-12 mx-auto">
+          <h6 class="period-title">Период работы</h6>
+          <div class="period__choose-date">
+            <div class="d-flex input-group date input-daterange justify-content-center">
+              <div class="from-date">
+                <label for="from-date">С</label>
+                <input type="text" id="from-date" placeholder="Выберите дату">
+              </div>
+              <div class="to-date">
+                <label for="to-date">ПО</label>
+                <input type="text" id="to-date" placeholder="Выберите дату">
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <section class="row big-buttons">
+          <div class="col-12 col-md-6">
+            <a class="big-button addition-button d-flex align-items-center justify-content-center">Дополнить</a>
+          </div>
+          <div class="col-12 col-md-6">
+            <a class="big-button recharge-button d-flex align-items-center justify-content-center">Пополнить баланс</a>
+          </div>
+        </section>
+      </form>
+    </div>
+
+
+  </div>
+  <script
+    src="http://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous">
+  </script>
+  <script
+    src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+    integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+    crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="js/bootstrap-datepicker.min.js"></script>
+  <script>
+    $(".input-daterange").datepicker({
+      format: 'dd/mm/yyyy',
+      todayHighlight: true
+    }).datepicker('update', new Date());
+  </script>
+</body>
+</html>
