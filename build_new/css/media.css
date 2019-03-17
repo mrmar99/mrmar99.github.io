@@ -19,8 +19,10 @@
 
 @media screen and (max-width: 768px) {
   .recharge-button {
-    margin-top: -65px;
     margin-bottom: 90px;
+  }
+  .addition-button {
+    margin-bottom: 25px;
   }
   .item__center-inner,
   .item__left-inner {
