@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <title>Pay</title>
+</head>
+<body>
+  <header class="top-area">
+    <div class="container d-flex h-100 justify-content-between">
+        <div class="logo align-self-center">
+          <a href="#"><img src="images/logo.png" class="img-fluid" width="180" alt="Логотип NazzAR"></a>
+        </div>
+        <a class="avatar align-self-center">
+          <span>Sevara</span>
+          <img src="images/icon/avatar.jpg">
+        </a>
+    </div>
+  </header>
+
+  <div class="pay d-flex mx-auto col-12 col-xl-9">
+    <div class="container">
+      <div class="row d-flex wallet-area__nav">
+        <a class="wallet-area__nav-button col-lg-4 d-flex align-items-center justify-content-center" href="wallet.html">Лицевой счет</a>
+        <a class="wallet-area__active wallet-area__nav-button col-lg-4 d-flex align-items-center justify-content-center" href="pay.html">Оплатить</a>
+        <a class="wallet-area__nav-button col-lg-4 d-flex align-items-center justify-content-center" href="recharge.html">Пополнение счета</a>
+      </div>
+      <div class="balance-area d-flex">
+        <p>Баланс</p><span class="balance-area__money">1 200 000 UZB</span>
+      </div>
+      <div class="sum-to-pay">
+        <p class="sum-to-pay__title text-center">Итого к оплате</p>
+        <form class="sum-to-pay__row">
+          <div class="sum-to-pay__input row d-flex align-items-center">
+            <span class="sum-to-pay__label">Итого к оплате</span>
+            <input type="text" class="text-center">
+            <span class="sum-to-pay__currency">UZB</span>
+          </div>
+          <div class="row sum-to-pay__btns d-flex justify-content-center">
+            <div class="col-12 col-md-5">
+              <div class="balance-history__btn sum-to-pay__btn d-flex justify-content-center align-items-center">История баланса</div>
+            </div>
+            <div class="col-12 col-md-5">
+              <button class="pay__btn sum-to-pay__btn col-12">Оплатить</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

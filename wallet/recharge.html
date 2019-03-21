@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <title>Recharge</title>
+</head>
+<body>
+  <header class="top-area">
+    <div class="container d-flex h-100 justify-content-between">
+        <div class="logo align-self-center">
+          <a href="#"><img src="images/logo.png" class="img-fluid" width="180" alt="Логотип NazzAR"></a>
+        </div>
+        <a class="avatar align-self-center">
+          <span>Sevara</span>
+          <img src="images/icon/avatar.jpg">
+        </a>
+    </div>
+  </header>
+
+  <div class="recharge d-flex mx-auto col-12 col-xl-9">
+    <div class="container">
+      <div class="row d-flex wallet-area__nav">
+        <a class="wallet-area__nav-button col-lg-4 d-flex align-items-center justify-content-center" href="wallet.html">Лицевой счет</a>
+        <a class="wallet-area__nav-button col-lg-4 d-flex align-items-center justify-content-center" href="pay.html">Оплатить</a>
+        <a class="wallet-area__active wallet-area__nav-button col-lg-4 d-flex align-items-center justify-content-center" href="recharge.html">Пополнение счета</a>
+      </div>
+
+      <div class="recharge-area">
+        <div class="recharge-area__title text-center">Моментальное пополнение счета</div>
+        <div class="choose-sum text-center">Выберите сумму, чтобы пополнить счет.</div>
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="col-12 col-md-3">
+            <a class="choose-amount d-flex align-items-center justify-content-center mr-2">500 000</a>
+          </div>
+          <div class="col-12 col-md-3">
+            <a class="choose-amount d-flex align-items-center justify-content-center mr-2">1 000 000</a>
+          </div>
+          <div class="col-12 col-md-3">
+            <a class="choose-amount d-flex align-items-center justify-content-center mr-2">1 500 000</a>
+          </div>
+          <div class="col-12 col-md-3">
+            <a class="choose-amount d-flex align-items-center justify-content-center">2 000 000</a>
+          </div>
+        </div>
+        <form class="other-sum__input row d-flex align-items-center justify-content-center">
+          <span class="other-sum__label">Другая сумма UZB</span>
+          <input type="text" class="text-center">
+          <button class="other-sum__btn">Пополнить</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

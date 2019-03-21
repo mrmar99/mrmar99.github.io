@@ -1,0 +1,363 @@
+@media screen and (max-width: 992px) {
+  .wallet-info {
+    width: 100%!important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  a.choose-amount {
+    margin-right: 0!important;
+  }
+  .other-sum__input {
+    flex-direction: column!important;
+  }
+  .other-sum__input input,
+  .other-sum__label {
+    margin-right: 0!important;
+    margin-bottom: 10px;
+  }
+  .other-sum__btn {
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .avatar img {
+    display: none;
+  }
+  .avatar span {
+    margin-right: 0!important;
+  }
+  .sum-to-pay__input {
+    font-size: 12px!important;
+  }
+  .personal-account {
+    font-size: 12px!important;
+  }
+  .wallet--balance-area {
+    font-size: 12px!important;
+    margin-bottom: 10px;
+  }
+  .wallet__monthly-info {
+    line-height: 15px!important;
+    font-size: 11px!important;
+  }
+}
+
+/* Убирает подчеркивание и цвет ссылок */
+.wallet-area__nav a:hover {
+  text-decoration: none;
+  color: #9a9a9a;
+}
+
+/* Задает задний однотонный фон для контента */
+body {
+  background-color: #fcfcfc!important;
+}
+
+/* Шапка сайта */
+
+.top-area {
+  height: 125px;
+  background-color: #f7f7f7;
+}
+
+.pay,
+.recharge,
+.wallet {
+  margin-top: 5px;
+}
+
+/* Аватарка */
+.avatar {
+  display: block;
+}
+
+.avatar span {
+  color: #9a9a9a;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  margin-right: 23px;
+}
+
+.avatar:hover {
+  cursor: pointer;
+}
+
+.avatar:hover span {
+  color: #393862;
+}
+
+/* Навигация */
+
+.wallet-area__nav-button {
+  display: block;
+  height: 48px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  color: #9a9a9a;
+  border-bottom: 3px solid #ececec;
+}
+
+.wallet-area__nav-button:hover {
+  cursor: pointer;
+}
+
+.wallet-area__active {
+  color: #393862!important;
+  border-bottom: 3px solid #393862;
+}
+
+/* Баланс */
+
+.balance-area {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #559bd0;
+  font-weight: 600;
+  margin-top: 50px;
+  margin-left: -15px;
+}
+
+.balance-area__money {
+  margin-left: 20%;
+}
+
+/* Итого к оплате */
+
+.sum-to-pay__title {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #9a9a9a;
+  font-weight: 600;
+  margin-top: 28px;
+}
+
+.sum-to-pay__input {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #848688;
+  font-weight: 600;
+  margin-top: 48px;
+}
+
+.sum-to-pay__input input {
+  outline: none;
+  background-color: #efeff0;
+  border: 1px solid #e6e7e8;
+  height: 22px;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #848688;
+  font-weight: 600;
+}
+
+.sum-to-pay__label {
+  margin-right: 12%;
+}
+
+.sum-to-pay__currency {
+  margin-left: 4%;
+}
+
+.sum-to-pay__btns {
+  margin-top: 80px;
+}
+
+.sum-to-pay__btn {
+  font-size: 14px;
+  height: 100px;
+  background-color: #559ad1;
+  border: 1px solid #466c90;
+  border-radius: 4px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #fff;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  margin-bottom: 10px;
+}
+
+.sum-to-pay__btn:hover {
+  cursor: pointer;
+  background-color: #393862;
+}
+
+/* =================== */
+
+/* Пополнение счета */
+
+.recharge-area .col-md-3 {
+  padding: 0 0;
+}
+
+.recharge-area__title {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #9a9a9a;
+  font-weight: 600;
+  margin-top: 75px;
+}
+
+.recharge-area .choose-sum {
+  font-size: 13px;
+  font-weight: 700;
+  color: #9a9a9a;
+  margin-top: 68px;
+  margin-bottom: 13px;
+}
+
+.choose-amount {
+  font-size: 18px;
+  height: 84px;
+  background-color: #559ad1;
+  border: 1px solid #466c90;
+  border-radius: 4px;
+  font-weight: 400;
+  text-transform: uppercase;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  margin-bottom: 10px;
+}
+
+.choose-amount:hover {
+  cursor: pointer;
+  background-color: #393862;
+}
+
+a.choose-amount {
+  color: #fff!important;
+}
+
+.other-sum__input {
+  font-size: 15px;
+  color: #848688;
+  font-weight: 600;
+  margin-top: 48px;
+}
+
+.other-sum__input input {
+  outline: none;
+  background-color: #efeff0;
+  border: 1px solid #e6e7e8;
+  height: 22px;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #848688;
+  font-weight: 600;
+  margin-right: 10%;
+}
+
+.other-sum__label {
+  margin-right: 9%;
+}
+
+.other-sum__btn {
+  height: 23px;
+  font-size: 13px;
+  color: #fff;
+  padding: 0 25px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  background-color: #559ad1;
+  border: 1px solid #466c90;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.other-sum__btn:hover {
+  cursor: pointer;
+  background-color: #393862;
+}
+
+/* Лицевой счет */
+
+.wallet-area {
+  margin-top: 54px;
+}
+
+.wallet-info {
+  width: 45%;
+}
+
+.wallet-info span {
+  width: 30%;
+}
+
+.wallet--balance-area {
+  font-size: 15px;
+}
+
+.personal-account {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #9a9a9a;
+  margin-left: -15px;
+  margin-bottom: -10px;
+}
+
+.personal-account__number {
+  margin-left: 14%;
+}
+
+.wallet__monthly-info {
+  margin-left: -15px;
+}
+
+.wallet__monthly-info {
+  font-size: 13px;
+  color: #9a9a9a;
+  line-height: 1px;
+}
+
+.history__title {
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 38px;
+  text-transform: uppercase;
+  color: #9a9a9a;
+}
+
+.history-of-payment {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.custom-table-top {
+  height: 47vh;
+  overflow-y: scroll;
+}
+
+.custom-table thead {
+  background-color: #a9abae;
+  height: 19px;
+}
+
+.custom-table thead th {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 300;
+  border-right: 1px solid #fff;
+}
+
+.custom-table tbody tr {
+  text-align: center;
+  font-size: 12px;
+  color: #9a9a9a;
+}
+
+.custom-table tbody tr td {
+  height: 21px;
+  border-right: 1px solid #fff;
+}
+
+.custom-table tbody tr:nth-child(odd) {
+  background-color: #e8eae9;
+}
